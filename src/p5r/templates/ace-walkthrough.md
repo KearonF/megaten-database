@@ -1,10 +1,12 @@
+# All Confidant Events Walkthrough - Persona 5 Royal
 {% for month, days in walkthrough.items() %}
-## {{ month }}
+### {{ month }}
 {% for date, timeslots in days.items() %}
-### {{ date }}
+---
+#### {{ date }}
 {% for timeslot in config['Timeslots'] %}
 {% if timeslot in timeslots and timeslots[timeslot]['Tasks']|length > 0 %}
-#### {{ timeslot }}{% if timeslots[timeslot]['Rainy'] %} (Rain){% endif %}
+##### {{ timeslot }}{% if timeslots[timeslot]['Rainy'] %} (Rain){% endif %}
 
 {% for task in timeslots[timeslot]['Tasks'] %}
 * {{ task['Task'] }}{% if 'Next Rank' in task %} ({{ task['Next Rank'] }} to rank up){% endif %}{% for unlock in task['Unlocks'] %} ({{ unlock }}){% endfor %}

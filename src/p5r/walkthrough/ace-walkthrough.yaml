@@ -42,6 +42,7 @@ April:
     Daytime: 
     - Shujin Library > The Alluring Dancer
     - Castle Palace > Reach treasure
+    - Fool Rank 2 - Auto
     - Obtain Personas > Hierophant, Chariot, Lovers, Death
     Evening: ["Your Room > Crafting"]
   4/21 Thu:
@@ -52,7 +53,9 @@ April:
     - Hideout > Send calling card
     Evening: ["DVDs > Guy McVer 1/2"]
   4/22 Fri:
-    Daytime: ["Castle Palace > Take treasure"]
+    Daytime:
+    - Castle Palace > Take treasure
+    - Magician Rank 2 - Auto
     Evening: ["DVDs > Guy McVer 2/2"]
   4/23 Sat:
     Daytime:
@@ -155,7 +158,6 @@ May:
     Daytime: ["Museum Palace > Unlock barrier"]
     Evening: ["Your Room > Crafting"]
   5/20 Fri:
-    Class: ["Hallway > Exam Results"]
     Daytime:
     - Shujin Library > the Gallant Rogue
     - Museum Palace > Reach treasure
@@ -174,7 +176,10 @@ May:
     Evening: ["Your Room > Crafting"]
   5/23 Mon:
     Daytime: ["Museum Palace > Take treasure"]
-    Evening: ["Your Room > Crafting"]
+    Evening:
+    - Your Room > Crafting
+    - Magician Rank 3 - Auto
+    - Fool Rank 4 - Auto
   5/24 Tue:
     Train: ["Books > The Gallant Rogue 2/2"]
     Daytime:
@@ -310,7 +315,10 @@ June:
   6/25 Sat:
     Class: ["Books > ABCs of Crafting 1/1"]
     Daytime: ["Bank Palace > Take treasure"]
-    Evening: ["DVDs > Bubbly Hills 1/2"]
+    Evening:
+    - DVDs > Bubbly Hills 2/2
+    - Magician Rank 5 - Auto
+    - Fool Rank 6 - Auto
   6/26 Sun:
     Daytime: ["Emperor Rank 2"]
     Evening:
@@ -338,7 +346,9 @@ July:
     - Shibuya Movies > Love Possibly
     Evening: ["Temperance Rank 8"]
   7/02 Sat:
-    Class: ["Books > Speed Reader 1/1"]
+    Class:
+    - Books > Speed Reader 1/1
+    - Temperance Rank 8.1 - Auto
     Daytime:
     - Shujin Library > Zorro, the Outlaw
     - Emperor Rank 4
@@ -369,6 +379,7 @@ July:
     - Temperance Rank 9 Romantic
     - Temperance Rank 9 Platonic
   7/07 Thu:
+    Class: ["Temperance Rank 9.1 - Auto"]
     Daytime: ["Faith Rank 4"]
     Evening: ["Fortune Rank 1"]
   7/08 Fri:
@@ -422,13 +433,14 @@ July:
     Daytime: ["Auto"]
     Evening: ["DVDs > Not So Hot Betsy 2/2"]
   7/19 Tue:
-    Class: ["Hallway > Exam Results"]
     Daytime:
     - Shibuya DVD Shop > Jail Break
     - Shibuya Bookstore > Tidying the Heart
     - Shibuya Bookstore > Buchiko's Story
     - Chariot Rank 8
-    Evening: ["Fortune Rank 2"]
+    Evening:
+    - Leblanc > Talk to Sojiro for exam reward
+    - Fortune Rank 2
   7/20 Wed:
     Daytime: ["Auto"]
     Evening: ["DVDs > Jail Break 1/2"]
@@ -544,7 +556,7 @@ August:
     - Shibuya > Aojiru
     - Sun Rank 9
   8/15 Mon:
-    Daytime: ["Priestess Invite Jinbocho"]
+    Daytime: ["Priestess Invite Jinbocho - Optional"]
     Evening: ["Devil Rank 3"]
   8/16 Tue:
     Daytime:
@@ -614,7 +626,7 @@ September:
     Daytime: ["Auto"]
     Evening: ["Fortune Rank 7.1"]
   9/02 Fri:
-    Daytime: ["Strength Hangout Beach"]
+    Daytime: ["Strength Hangout Beach - Optional"]
     Evening:
     - Yongenjaya Secondhand Shop > Broken Laptop
     - Akihabara Hardware Store > PC Tools Set
@@ -694,7 +706,7 @@ September:
     Daytime: ["Hermit Rank 4"]
     Evening: ["Star Rank 6"]
   9/22 Thu:
-    Daytime: ["Star Invite Akihabara"]
+    Daytime: ["Star Invite Akihabara - Optional"]
     Evening:
     - Affinity Reading > Star +7
     - Moon Rank 6.1
@@ -719,6 +731,7 @@ September:
     Evening:
     - Call Kawakami > Massage
     - Priestess Hangout Jazz Club
+    - Magician Rank 9 - Auto
   9/26 Mon:
     Daytime: ["Tower Rank 2"]
     Evening: ["Star Rank 7"]
@@ -746,7 +759,7 @@ October:
     Evening: ["Hanged Rank 6"]
   10/02 Sun:
     Daytime: ["Priestess Rank 10"]
-    Evening: ["Hermit Invite Movies"]
+    Evening: ["Hermit Invite Movies - Optional"]
   10/03 Mon:
     Daytime: ["Auto"]
     Evening: ["Auto"]
@@ -785,18 +798,18 @@ October:
     Daytime: ["Auto"]
     Evening: ["Free Time"]
   10/14 Fri:
-    Daytime: ["Priestess Invite Study Daytime"]
+    Daytime: ["Priestess Invite Study Daytime - Optional"]
     Evening: ["Hierophant Rank 10"]
   10/15 Sat:
-    Daytime: ["Emperor Invite Study Daytime"]
-    Evening: ["Lovers Invite Study Evening"]
+    Daytime: ["Emperor Invite Study Daytime - Optional"]
+    Evening: ["Lovers Invite Study Evening - Optional"]
   10/16 Sun:
     Daytime:
     - Jinbocho Bookstore > Knowing the Heart
     - Shinjuku Bookstore > Pro Darts
     - Shinjuku Bookstore > Flowerpedia
     - Hermit Rank 7
-    Evening: ["Chariot Invite Study Evening"]
+    Evening: ["Chariot Invite Study Evening - Optional"]
   10/17 Mon:
     Daytime: ["Auto"]
     Evening: ["Auto"]
@@ -819,9 +832,10 @@ October:
     Daytime: ["Auto"]
     Evening: ["Hermit Hangout Jazz Club 2/4"]
   10/24 Mon:
-    Class: ["Hallway > Exam Results"]
     Daytime: ["Auto"]
-    Evening: ["Strength Hangout Art Museum"]
+    Evening:
+    - Leblanc > Talk to Sojiro for exam reward
+    - Strength Hangout Art Museum - Optional
   10/25 Tue:
     Daytime: ["Auto"]
     Evening: ["Free Time"]
@@ -865,7 +879,7 @@ November:
     - Empress Rank 1
     Evening: ["Justice Rank 7"]
   11/03 Thu:
-    Daytime: ["Moon Invite Suidobashi"]
+    Daytime: ["Moon Invite Suidobashi - Optional"]
     Evening: ["Fortune Rank 10"]
   11/04 Fri:
     Daytime: ["Tower Rank 7"]
@@ -919,7 +933,7 @@ November:
     - Affinity Reading > Star +7
     - Hermit Rank 9 Romantic
     - Hermit Rank 9 Platonic
-    Evening: ["Empress Invite Movies"]
+    Evening: ["Empress Invite Movies - Optional"]
   11/14 Mon:
     Train: ["Books > The Great Thief 2/2"]
     Daytime: ["Empress Rank 3"]
@@ -930,7 +944,7 @@ November:
   11/16 Wed:
     Class: ["Books > Chinese Sweets 1/1"]
     Daytime: ["Councillor Rank 9"]
-    Evening: ["Justice Invite Jazz Club"]
+    Evening: ["Justice Invite Jazz Club - Optional"]
   11/17 Thu:
     Train: ["Books > Factorization Guide 1/1"]
     Daytime: ["Hermit Rank 10"]
@@ -998,6 +1012,8 @@ December:
     - Chihaya > Money Reading
     - Chihaya > Celestial Reading
     - Cruiser Palace > Reach treasure
+    - Justice Rank 9 - Auto
+    - Justice Rank 10 - Auto
     Evening:
     - Call Kawakami > Massage
     - Temperance Hangout Ueno Romantic
@@ -1006,6 +1022,7 @@ December:
     Evening:
     - Call Kawakami > Massage
     - Hanged Hangout Inokashira
+    - Justice Rank 10.5 - Auto
   12/05 Mon:
     Daytime: ["Emperor Hangout Meiji-Shrine"]
     Evening: ["Star Hangout Inokashira"]
@@ -1067,9 +1084,10 @@ December:
     - Free Time
   12/23 Fri:
     Daytime: ["Auto"]
-    Evening: ["Free Time"]
+    Evening:
+    - Leblanc > Talk to Sojiro for exam reward
+    - Free Time
   12/24 Sat:
-    Class: ["Hallway > Exam Results"]
     Daytime: ["Auto"]
     Evening: ["Auto"]
   12/25 Sun:

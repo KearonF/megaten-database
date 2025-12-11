@@ -44,7 +44,7 @@ class SaveFile:
 
     def aojiru_unlocks(self, date):
         unlocks = ['Charm', 'Proficiency', 'Guts', 'Kindness', 'Knowledge']
-        unlocks = [f"{unlocks[self.countups[1] % 5]} +2"]
+        unlocks = ['¥5000', f"{unlocks[self.countups[1] % 5]} +2"]
         self.countups[1] += 1
         return unlocks
 
@@ -94,7 +94,8 @@ class SaveFile:
             self.exam_coeff = 1.2
         if 4 < knowledge_lvl:
             self.exam_coeff = 1.5
-        return [f"Charm +{points}"]
+        unlocks = ['Hierophant exam reward', f"School-related Confidant Bonus x{self.exam_coeff}"] if self.exam_coeff > 1 else []
+        return unlocks + [f"Charm +{points}"]
 
     def update_unlocks(self, task, unlocks, date):
         new_unlocks = []
@@ -108,10 +109,11 @@ class SaveFile:
                 if (stat, date) == self.luck_reading:
                     points = math.floor(points * 1.5)
 
-                new_unlocks.append(f"{stat} +{points}")
-
                 total, target, rank = self.social_stats[stat]
                 total += points
+
+                music_notes = '' if target == 999 else ' ♪♪♪' if points > 4 else (' ♪♪' if points > 2 else ' ♪')
+                new_unlocks.append(f"{stat} +{points}{music_notes}")
 
                 if rank < 5 and total >= target:
                     rank += 1
@@ -140,7 +142,8 @@ class SaveFile:
                 choice, points = choice.split(' +')
                 points = math.floor(int(points) * point_coeff)
                 total += points
-                new_choices.append(f"{'' if choice.startswith('Phone') else 'Choice '}{choice} +{points}")
+                music_notes = ' ♪♪♪' if points > 14 else (' ♪♪' if points > 5 else (' ♪' if points > 0 else ''))
+                new_choices.append(f"{'Choice ' if ord(choice[0]) < 64 else ''}{choice} +{points}{music_notes}")
             else:
                 new_choices.append('Any')
         if next_rank >= 0:
@@ -224,19 +227,22 @@ def expand_walkthrough(fname):
         confidants = yaml.safe_load(yamlfile)
     with open('walkthrough/ace-config.yaml') as yamlfile:
         config = yaml.safe_load(yamlfile)
-    with open('walkthrough/sakaya-trader.tsv') as tsvfile:
-        next(tsvfile)
-        trades = []
-        for line in tsvfile:
-            date, timeslot, action = line.split('\t')
-            action = action.strip()
-            trades.append((date, timeslot, action))
     with open('walkthrough/calendar.tsv') as tsvfile:
         next(tsvfile)
         calendar = {}
         for line in tsvfile:
             date, dow, daytime, evening = line.split()
             calendar[date] = (dow, 'Rain' in daytime, 'Rain' in evening)
+
+    auto_events = []
+    free_events = []
+    for fname, event_list in [('auto-events.tsv', auto_events), ('free-events.tsv', free_events)]:
+        with open(f"walkthrough/{fname}") as tsvfile:
+            next(tsvfile)
+            for line in tsvfile:
+                date, timeslot, action = line.split('\t')
+                action = action.strip()
+                event_list.append((date, timeslot, action))
 
     savefile = SaveFile(config, calendar)
     date_lookup = {}
@@ -252,6 +258,11 @@ def expand_walkthrough(fname):
             if timeslot not in date_lookup[date]:
                 date_lookup[date][timeslot] = []
             date_lookup[date][timeslot].insert(0, f"{quiz['Description']}: {answer}")
+
+    for date, timeslot, action in auto_events:
+        if timeslot not in date_lookup[date] or date_lookup[date][timeslot][0] == 'Auto':
+            date_lookup[date][timeslot] = []
+        date_lookup[date][timeslot].append(f"{action}{' - Auto' if 'Rank' in action else ''}")
 
     for month in config['Months']:
         for date, day in walkthrough[month].items():
@@ -282,8 +293,8 @@ def expand_walkthrough(fname):
                 if eve_rain:
                     day['Evening']['Rainy'] = True
 
-    for date, timeslot, action in trades:
-        date_lookup[date][timeslot]['Tasks'].insert(0, { 'Task': action })
+    for date, timeslot, action in free_events:
+        date_lookup[date][timeslot]['Tasks'].insert(-1, { 'Task': action })
 
     env = Environment(loader=FileSystemLoader('templates'), trim_blocks=True, lstrip_blocks=True)
     env.filters['resist_type_format'] = lambda x: RESIST_TYPES.get(x, x)
