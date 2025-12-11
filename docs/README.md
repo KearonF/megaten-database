@@ -12,5 +12,12 @@
 * [Combat](./p3r/combat)
 * [Inventory](./p3r/inventory)
 
+## P5R Walkthrough
+* [All Confidant Events Walkthrough](./p5r/ace-walkthrough)
+* [Social Events](./p5r/social-events)
+* [Overworld](./p5r/overworld)
+* [Metaverse](./p5r/metaverse)
+* [Achievements](./p5r/achievements)
+
 ## Game-Specific
 * [SMTIVA Accident-Only Fusion Recipes](./smt4f-recipes)
