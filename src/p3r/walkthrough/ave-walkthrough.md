@@ -1251,7 +1251,6 @@
 ---
 #### Fri 8/28
 ##### Daytime
-* TV Shopping: Soul Spinach Sprout x2, Buff Potato Sprout x3 (Y2980)
 * Check fridge > Chilled Taiyaki
 * Aeon Movies (Academics +4, 2 notes)
   * Invite Aigis to movies
