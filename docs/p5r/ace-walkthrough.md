@@ -1087,6 +1087,7 @@
 #### 7/26 Tue
 ##### Daytime
 * Pyramid Palace > Reach treasure
+    1. Can obtain x20 Aluminium Sheets for Perma Pick crafting at October (also can be done in Mementos later)
 * Obtain Personas > Hermit, Fortune, Hanged, Devil, Star
 ##### Evening
 * Call Kawakami > Massage (¥0)
@@ -1718,6 +1719,7 @@
 * Chihaya > Money Reading (¥5000)
 * Chihaya > Celestial Reading (¥20000)
 * Spaceport Palace > Reach treasure
+    1. Can obtain x10 Liquid Mercury for Perma Pick crafting at October
 * Obtain Personas > Empress, Tower
 ##### Evening
 * Call Kawakami > Massage (¥0)
@@ -1978,6 +1980,7 @@
 #### 10/13 Thu
 ##### Evening
 * Free Time
+    1. A Perma Pick can be crafted if the materials are obtained early.
 ---
 #### 10/14 Fri
 ##### Daytime (Rain)
