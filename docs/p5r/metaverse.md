@@ -514,7 +514,7 @@
 ### Equipment
 #### Melee Weapons
 | User | Name | Atk | Hit | Effect | Obtain |
-| --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 | Joker | Arsene's Cane | 130 | 92 | Rare chance of Random Ailment | Arsene |
 | Joker | Great Thief Stick | 150 | 92 | Low chance of Random Ailment | Arsene (A) |
 | Joker | Paradise Lost | 325 | 92 | Greatly reduces Curse damage | Satanael |
