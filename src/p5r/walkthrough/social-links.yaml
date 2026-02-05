@@ -66,8 +66,6 @@ Magician:
     Requires:
     - 1/10
   Hangout Darts:
-    Unlocks:
-    - Proficiency +3
     Choices:
     - Let him end on round 4. +0
     - 3. I'm counting on you. +5
@@ -216,8 +214,6 @@ Priestess:
     - 3. Spring rolls? +15
     - 2. Let's find some. +10
   Hangout Darts:
-    Unlocks:
-    - Proficiency +3
     Choices:
     - Let her end on round 4. +0
     - 3. Take a deep breath. +5
@@ -712,8 +708,6 @@ Lovers:
     Choices:
     - 1. Yeah. +10
   Hangout Darts:
-    Unlocks:
-    - Proficiency +3
     Choices:
     - Let her end on round 4. +0
     - 3. Just play like normal. +5
@@ -1512,8 +1506,7 @@ Temperance:
     - 3. You're a genius, Ryuji! (Chariot) +15
   Rank 0.2:
     Choices:
-    - Speak to Kawakami outside the Staff Room.
-    - Does not take time.
+    - Speak to Kawakami outside the Staff Room. +0
   Rank 1:
     Requires:
     - Guts Lv. 3

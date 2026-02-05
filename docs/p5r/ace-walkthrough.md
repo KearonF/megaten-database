@@ -410,6 +410,8 @@
 ##### Class
 * Class Question: Arthur Conan Doyle. (Knowledge +2 ♪)
 ##### Daytime
+* Temperance Rank 0.2
+    1. Speak to Kawakami outside the Staff Room. +0
 * Lovers Rank 4 (103/20 to rank up)
     1. Not raining required
     1. Choice 1. I know what you mean. +15 ♪♪♪
@@ -595,9 +597,12 @@
     1. Any
     1. Phone 1. Impressive. +5 ♪
 ##### Evening
-* Lovers Hangout Darts (Proficiency +3 ♪♪)
+* Lovers Hangout Darts
     1. Let her end on round 4. +0
     1. Choice 3. Just play like normal. +7 ♪♪
+* Emperor Hangout Darts (Proficiency +3 ♪♪)
+    1. Let him end on round 4. +0
+    1. Choice 1. Pretend like you're painting. +5 ♪
 ---
 #### 6/09 Thu
 ##### Evening
@@ -699,9 +704,12 @@
 ---
 #### 6/21 Tue
 ##### Daytime
-* Magician Hangout Darts (Proficiency +3 ♪♪)
+* Magician Hangout Darts
     1. Let him end on round 4. +0
     1. Choice 3. I'm counting on you. +5 ♪
+* Chariot Hangout Darts (Proficiency +3 ♪♪)
+    1. Let him end on round 4. +0
+    1. Choice 1. You gotta psych yourself up! +7 ♪♪
 ##### Evening (Rain)
 * Shinjuku Bookstore > Craft of Cinema (¥2800)
 * Shinjuku Bookstore > ABCs of Crafting (¥2800)
@@ -1087,7 +1095,6 @@
 #### 7/26 Tue
 ##### Daytime
 * Pyramid Palace > Reach treasure
-    1. Can obtain x20 Aluminium Sheets for Perma Pick crafting at October (also can be done in Mementos later)
 * Obtain Personas > Hermit, Fortune, Hanged, Devil, Star
 ##### Evening
 * Call Kawakami > Massage (¥0)
@@ -1719,13 +1726,15 @@
 * Chihaya > Money Reading (¥5000)
 * Chihaya > Celestial Reading (¥20000)
 * Spaceport Palace > Reach treasure
-    1. Can obtain x10 Liquid Mercury for Perma Pick crafting at October
 * Obtain Personas > Empress, Tower
 ##### Evening
 * Call Kawakami > Massage (¥0)
 * Empress Hangout Darts (Proficiency +3 ♪♪)
     1. Let her end on round 4. +0
     1. Choice 3. Have fun with it. +9 ♪♪
+* Priestess Hangout Darts
+    1. Let her end on round 4. +0
+    1. Choice 3. Take a deep breath. +9 ♪♪
 ---
 #### 9/24 Sat
 ##### Train
@@ -1980,7 +1989,6 @@
 #### 10/13 Thu
 ##### Evening
 * Free Time
-    1. A Perma Pick can be crafted if the materials are obtained early.
 ---
 #### 10/14 Fri
 ##### Daytime (Rain)

@@ -2249,7 +2249,7 @@
     3. Any
 
 ---
-#### Sun 10/3
+#### Mon 10/3
 ##### Class
 * Question: "Stars." **(Knowledge +2)**
 

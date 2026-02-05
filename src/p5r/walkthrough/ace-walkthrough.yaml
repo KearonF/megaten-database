@@ -190,7 +190,9 @@ May:
     Daytime: ["Chariot Rank 5"]
     Evening: ["Temperance Rank 0.1"]
   5/26 Thu:
-    Daytime: ["Lovers Rank 4"]
+    Daytime:
+    - Temperance Rank 0.2
+    - Lovers Rank 4
     Evening: ["Temperance Rank 1"]
   5/27 Fri:
     Daytime: ["Councillor Rank 3"]
@@ -242,7 +244,9 @@ June:
     Evening: ["Strength Hangout Movie Theater"]
   6/08 Wed:
     Daytime: ["Faith Rank 2"]
-    Evening: ["Lovers Hangout Darts"]
+    Evening:
+    - Lovers Hangout Darts
+    - Emperor Hangout Darts
   6/09 Thu:
     Daytime: ["Auto"]
     Evening: ["Darts Club > Billiards Lv. 1"]
@@ -287,7 +291,9 @@ June:
     Daytime: ["Auto"]
     Evening: ["Video Games > Star Forneus 3/3"]
   6/21 Tue:
-    Daytime: ["Magician Hangout Darts"]
+    Daytime:
+    - Magician Hangout Darts
+    - Chariot Hangout Darts
     Evening:
     - Shinjuku Bookstore > Craft of Cinema
     - Shinjuku Bookstore > ABCs of Crafting
@@ -720,6 +726,7 @@ September:
     Evening:
     - Call Kawakami > Massage
     - Empress Hangout Darts
+    - Priestess Hangout Darts
   9/24 Sat:
     Train: ["Books > Heroic Revelations 2/3"]
     Daytime:
