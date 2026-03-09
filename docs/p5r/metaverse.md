@@ -118,35 +118,80 @@
     * Accident: Result persona is random, inherits chosen skills, and does not receive an Arcana Burst
     * Fusion Alarm: Result persona matches can inherit more chosen skills, receives a bigger Arcana Burst, and asks to mutate some of its skills
     * Fusion Alarm Accident: Same as normal fusion accident
-    * Fusion Alarm Yellow Accident: Result persona is random, receives no Arcana Burst, and mutates all its skills to a predetermined trait and skillset
+    * Fusion Alarm Gold Accident: Result persona is random, receives no Arcana Burst, and mutates all its skills to a predetermined trait and skillset
 
-| Trait | Skills |
+##### Persona Compendium
+| Completion | Discount |
 | --- | --- |
-| Heated Bloodline | Agidyne, Maragidyne, Concentrate, Fire Break, Fire Boost, Fire Amp, Burn Boost, Absorb Fire |
-| Frigid Bloodline | Bufudyne, Mabufudyne, Concentrate, Ice Break, Ice Boost, Ice Amp, Freeze Boost, Absorb Ice |
-| Electric Bloodline | Ziodyne, Maziodyne, Concentrate, Elec Break, Elec Boost, Elec Amp, Shock Boost, Absorb Elec |
-| Wind Bloodline | Garudyne, Magarudyne, Concentrate, Wind Break, Wind Boost, Wind Amp, Attack Master, Absorb Wind |
-| Psychic Bloodline | Psiodyne, Mapsiodyne, Concentrate, Psy Break, Psy Boost, Psy Amp, Attack Master, Absorb Psy |
-| Atomic Bloodline | Freidyne, Mafreidyne, Concentrate, Nuke Break, Nuke Boost, Nuke Amp, Attack Master, Absorb Nuke |
-| Blessed Bloodline | Kougaon, Makougaon, Concentrate, Mahamaon, Bless Boost, Bless Amp, Attack Master, Absorb Bless |
-| Cursed Bloodline | Eigaon, Maeigaon, Concentrate, Mamudoon, Curse Boost, Curse Amp, Attack Master, Absorb Curse |
-| Striking Weight | Megaton Raid, Deadly Fury, Heat Wave, Deathbound, Charge, Nocturnal Flash, Attack Master, Arms Master |
-| Striking Weight | One-shot Kill, Triple Down, Charge, Life Aid, Auto-Mataru, Trigger Happy, Gun Boost, Gun Amp |
-| Savior Bloodline | Mediarama, Diarahan, Energy Shower, Me Patra, Mabaisudi, Samarecarm, Dekunda, Divine Grace |
-| Gloomy Child | Bloodbath, Evil Touch, Evil Smile, Ghastly Wail, Stagnant Air, Spirit Drain, Fear Boost, Ambient Aid |
-| Foul Stench | Lullaby, Nocturnal Flash, Makajamaon, Wage War, Tentarafoo, Evil Smile, Brain Jack, Abysmal Surge |
-| Gluttonmouth | Life Drain, Regenerate 1, Regenerate 2, Regenerate 3, Life Aid, Heat Up, Endure, Fortify Spirit |
-| Mouth of Savoring | Spirit Drain, Abysmal Surge, Invigorate 1, Invigorate 2, Invigorate 3, Life Aid, Heat Up, Despair Boost |
-| - | Fire Boost, Ice Boost, Elec Boost, Wind Boost, Nuke Boost, Psy Boost, Bless Boost, Curse Boost |
-| - | Fire Amp, Ice Amp, Elec Amp, Wind Amp, Nuke Amp, Psy Amp, Bless Amp, Curse Amp |
-| Rare Antibody | Evade Fire, Evade Ice, Evade Elec, Evade Wind, Evade Nuke, Evade Psy, Evade Bless, Evade Curse |
-| Pinch Anchor | Miracle Punch, Rebellion, Revolution, Thermopylae, Swift Strike, Apt Pupil, Fortified Moxy, Adverse Resolve |
-| Thermal Conduct | Maragion, Agidyne, Magarula, Garudyne, Stagnant Air, Fire Break, Burn Boost, Ambient Aid |
-| Cold-Blooded | Mabufula, Bufudyne, Freila, Freidyne, Stagnant Air, Ice Break, Freeze Boost, Ambient Aid |
-| Static Electricity | Mazionga, Ziodyne, Freila, Freidyne, Stagnant Air, Elec Break, Shock Boost, Ambient Aid |
-| Skillful Technique | Mapsio, Psiodyne, Mafreila, Freidyne, Lullaby, Tentarafoo, Ailment Boost, Ambient Aid |
-| Deathly Illness | Hamaon, Mudoon, Mahamaon, Mamudoon, Dekaja, Survival Trick, Hama Boost, Mudo Boost |
-| Retaliating Body | Oni Kagura, Taunt, Wage War, Tetrakarn, Makarakarn, High Counter, Rage Boost, Ambient Aid |
+| 25% | 10% |
+| 50% | 15% |
+| 75% | 25% |
+| 100% | 50% |
+
+##### Inherited Skill Slots
+| Ingred Skill Total | Result Skill Slots |
+| --- | --- |
+| 0-5 | 1 |
+| 6-8 | 2 |
+| 9-12 | 3 |
+| 13-23 | 4 |
+| 24-31 | 5 |
+| 32-41 | 6 |
+| 42+ | 8 |
+
+##### Arcana Burst Bonus Level Up
+| Confidant Rank | Burst | High Burst | Full Burst |
+| --- | --- | --- | --- |
+| 1 | 1.1 | 1.3 | 1.8 |
+| 2 | 1.5 | 1.8 | 2.2 |
+| 3 | 2.0 | 2.0 | 2.8 |
+| 4 | 2.2 | 2.5 | 3.0 |
+| 5 | 2.5 | 3.0 | 3.5 |
+| 6 | 2.8 | 3.5 | 4.0 |
+| 7 | 3.0 | 4.0 | 4.5 |
+| 8 | 3.5 | 4.3 | 5.0 |
+| 9 | 3.8 | 4.8 | 5.5 |
+| 10 | 4.0 | 5.0 | 6.0 |
+
+##### Alarm Gallows Accident
+| Gold Ingred Count | Bonus Stat Points | Skill Set |
+| --- | --- | --- |
+| 0 | 15 | - |
+| 1 | 20 | Single Gold |
+| 2 | 25 | Double Gold |
+
+##### Alarm Gallows Single Gold Skill Set
+| Chance | Trait | Skills |
+| --- | --- | --- |
+| 15% | - | Fire Boost, Ice Boost, Elec Boost, Wind Boost, Nuke Boost, Psy Boost, Bless Boost, Curse Boost |
+| 15% | Rare Antibody | Evade Fire, Evade Ice, Evade Elec, Evade Wind, Evade Nuke, Evade Psy, Evade Bless, Evade Curse |
+| 15% | Gluttonmouth | Life Drain, Regenerate 1, Regenerate 2, Regenerate 3, Life Aid, Heat Up, Endure, Fortify Spirit |
+| 10% | Foul Stench | Lullaby, Nocturnal Flash, Makajamaon, Wage War, Tentarafoo, Evil Smile, Brain Jack, Abysmal Surge |
+| 10% | Gloomy Child | Bloodbath, Evil Touch, Evil Smile, Ghastly Wail, Stagnant Air, Spirit Drain, Fear Boost, Ambient Aid |
+| 10% | Retaliating Body | Oni Kagura, Taunt, Wage War, Tetrakarn, Makarakarn, High Counter, Rage Boost, Ambient Aid |
+| 5% | Thermal Conduct | Maragion, Agidyne, Magarula, Garudyne, Stagnant Air, Fire Break, Burn Boost, Ambient Aid |
+| 5% | Cold-Blooded | Mabufula, Bufudyne, Freila, Freidyne, Stagnant Air, Ice Break, Freeze Boost, Ambient Aid |
+| 5% | Static Electricity | Mazionga, Ziodyne, Freila, Freidyne, Stagnant Air, Elec Break, Shock Boost, Ambient Aid |
+| 5% | Skillful Technique | Mapsio, Psiodyne, Mafreila, Freidyne, Lullaby, Tentarafoo, Ailment Boost, Ambient Aid |
+| 5% | Pinch Anchor | Miracle Punch, Rebellion, Revolution, Thermopylae, Swift Strike, Apt Pupil, Fortified Moxy, Adverse Resolve |
+
+##### Alarm Gallows Double Gold Skill Set
+| Chance | Trait | Skills |
+| --- | --- | --- |
+| 15% | Mouth of Savoring | Spirit Drain, Abysmal Surge, Invigorate 1, Invigorate 2, Invigorate 3, Life Aid, Heat Up, Despair Boost |
+| 14% | - | Fire Amp, Ice Amp, Elec Amp, Wind Amp, Nuke Amp, Psy Amp, Bless Amp, Curse Amp |
+| 14% | Savior Bloodline | Mediarama, Diarahan, Energy Shower, Me Patra, Mabaisudi, Samarecarm, Dekunda, Divine Grace |
+| 6% | Heated Bloodline | Agidyne, Maragidyne, Concentrate, Fire Break, Fire Boost, Fire Amp, Burn Boost, Drain Fire |
+| 6% | Frigid Bloodline | Bufudyne, Mabufudyne, Concentrate, Ice Break, Ice Boost, Ice Amp, Freeze Boost, Drain Ice |
+| 6% | Electric Bloodline | Ziodyne, Maziodyne, Concentrate, Elec Break, Elec Boost, Elec Amp, Shock Boost, Drain Elec |
+| 6% | Wind Bloodline | Garudyne, Magarudyne, Concentrate, Wind Break, Wind Boost, Wind Amp, Attack Master, Drain Wind |
+| 6% | Psychic Bloodline | Psiodyne, Mapsiodyne, Concentrate, Psy Break, Psy Boost, Psy Amp, Attack Master, Drain Psy |
+| 6% | Atomic Bloodline | Freidyne, Mafreidyne, Concentrate, Nuke Break, Nuke Boost, Nuke Amp, Attack Master, Drain Nuke |
+| 6% | Blessed Bloodline | Kougaon, Makougaon, Concentrate, Mahamaon, Bless Boost, Bless Amp, Attack Master, Drain Bless |
+| 6% | Cursed Bloodline | Eigaon, Maeigaon, Concentrate, Mamudoon, Curse Boost, Curse Amp, Attack Master, Drain Curse |
+| 3% | Striking Weight | Megaton Raid, Deadly Fury, Heat Wave, Deathbound, Charge, Nocturnal Flash, Attack Master, Arms Master |
+| 3% | Striking Weight | One-shot Kill, Triple Down, Charge, Life Aid, Auto-Mataru, Trigger Happy, Gun Boost, Gun Amp |
+| 3% | Deathly Illness | Hamaon, Mudoon, Mahamaon, Mamudoon, Dekaja, Survival Trick, Hama Boost, Mudo Boost |
 
 #### Group Guillotine
 * Unlocked: Strength Rank 1
@@ -161,15 +206,34 @@
 * Skill element chosen from persona weaknesses
 * If all weaknesses have been covered a random ailment resistance will be chosen instead
 * Rank of skills scales off current persona level
-    * Lv. 1-25: Dodge X
-    * Lv. 26-33: Evade X
-    * Lv. 34-52: Resist X
-    * Lv. 53-62: Null X
-    * Lv. 63-74: Repel X
-    * Lv. 75-99: Drain X
 * Adding incense grants bonus stats when lockdown ends **(Royal)**
 * You can obtain incense from Kichijoji or Jose **(Royal)**
 * Fusion Alarm: Doubles stat gains from incense **(Royal)**
+
+| Confidant Rank | Required Lockdown Days |
+| --- | --- |
+| 0 | 5 |
+| 1-3 | 4 |
+| 4-6 | 3 |
+| 7-9 | 2 |
+| 10 | 1 |
+
+##### Lockdown Bonus Skill (Weakness Available)
+| Persona Lv. | Learned Skill |
+| --- | --- |
+| 1-25 | Dodge Element |
+| 26-33 | Evade Element |
+| 34-52 | Resist Element |
+| 53-62 | Null Element |
+| 63-74 | Repel Element |
+| 75-99 | Drain Element |
+
+##### Lockdown Bonus Skill (No Weakness Available)
+| Persona Lv. | Learned Skill |
+| --- | --- |
+| 1-30 | Dodge Element or Resist Ailment |
+| 31-60 | Dodge Element or Null Ailment |
+| 61-99 | Evade Element or Null Ailment |
 
 #### Persona Traits (Royal)
 * Unlocked: After entering Museum Palace
@@ -183,6 +247,16 @@
 * Traits that are triggered by charging, countering, and Baton Pass will activate every time
 * All other damage-raising, cost-reduction, and party member traits will activate at random
 
+##### Duplicate Bonus Trait Overrides
+* Striking Weight > Mighty Gaze > Intense Focus > Skillful Technique > Skillful Combo
+* Heated Bloodline > Frigid Bloodline > Electric Bloodline > Wind Bloodline
+* Psychic Bloodline > Atomic Bloodline > Blessed Bloodline > Cursed Bloodline > Savior Bloodline > Relief Bloodline
+* Pinch Anchor > Gloomy Child > Potent Hypnosis > Internal Hypnosis
+* Gluttonmouth > Draining Mouth > Mouth of Savoring
+* Retaliating Body > Relentless > Crisis Control
+* Thermal Conduct > Static Electricity > Cold-Blooded > Rare Antibody > Foul Odor
+* Bloodstained Eyes > Deathly Illness > Ailment Hunter > Immunity > Foul Stench
+
 #### Electric Chair
 * Unlocked: After securing treasure route in Museum Palace
 * Combines persona with the corresponding black item to produce a set weapon, armor, accessory, or skill card
@@ -194,22 +268,80 @@
         * Below Lv. 35: Megido, Divine Grace, Attract Ring, Megido Ring, Lucky Punch Belt, or X Incense
         * Lv. 36 to Lv. 55: Heat Up, Ailment Boost, Mudoon Ring, Megidola Ring, Miracle Punch Belt, or X Ryusen Incense
         * Above Lv. 56: Life Aid, Fortify Spirit, Amrita Shower, Angelic Grace, Deadly Fury Belt, or X Nirvana Incense
-    * Fusion Alarm Yellow Accident: Sacrificed persona creates a random skill card based on current resistances including current accessory effects
+    * Fusion Alarm Gold Accident: Sacrificed persona creates a random skill card based on current resistances including current accessory effects
         * Resist X for X immunities (Excluding Gun and Alm)
         * Dodge X or Evade X for X weaknesses (Excluding Gun and Alm)
         * X Boost or X Amp for all but X weaknesses (Excluding Phys and Alm)
 
 #### Fusion Alarm (Royal)
 * Unlocked: After securing treasure route in Bank Palace
-* After a battle the Velvet Room may enter a fusion alarm state
+* After a battle the Velvet Room may enter a fusion alarm state, guaranteed after 20 battles
 * When this happens you see a red door pop up after the results screen
 * During a Fusion Alarm rules for all fusion types are dramatically altered along with a higher chance of fusion accidents
 * Result personas from alerts are highlighted in yellow and can be reused as ingredients to trigger yellow accidents
 * All fusion types can result in fusion accidents with unique effects
 * The fusion alarm ends when you get a fusion accident
-* The second fusion using the same facility during an alert is almost guaranteed to be an accident
+* The second fusion using the same facility in a row during an alert increases accident chance by 50%
+* Summoning from the compendium increases accident chance by 25%
 * Talk to Justine to end the alert early
 * The Fortune Rank 8 ability can raise the chances of Fusion Alarm occurring
+
+##### Fusion Alarm Skill Upgrades
+* Lunge > Kill Rush > Assault Dive > Gattling Blows (30) > Megaton Raid (40) > God's Hand (50)
+* Cleave > Power Slash > Vajra Blast > Vicious Strike > Heat Wave (40) > Vorpal Blade (55) > Sword Dance (60) > Brave Blade (65) > Gigantomachia (65)
+* Giant Slice > Rising Slash > Deadly Fury (45)
+* Rampage > Swift Strike > Deathbound (40) > Agneyastra (65)
+* Tempest Slash > Myriad Slashes (40)
+* Lucky Punch > Miracle Punch
+* Sledgehammer > Flash Bomb
+* Skull Cracker > Mind Slice
+* Terror Claw > Bloodbath (35)
+* Headbutt > Memory Blow
+* Dream Needle > Dormin Rush
+* Hysterical Slap > Oni Kagura
+* Negative Pile > Bad Beat
+* Brain Shake > Brain Buster (40)
+* Snap > Double Shot > Triple Down (30) > One-shot Kill (50) > Riot Gun (65)
+* Agi > Maragi > Agilao > Maragion > Agidyne > Maragidyne > Inferno (55) > Blazing Hell (65)
+* Bufu > Mabufu > Bufula > Mabufula > Bufudyne > Mabufudyne > Diamond Dust (55) > Ice Age (65)
+* Zio > Mazio > Zionga > Mazionga > Ziodyne > Maziodyne > Thunder Reign (55) > Wild Thunder (65)
+* Garu > Magaru > Garula > Magarula > Garudyne > Magarudyne > Panta Rhei (55) > Vacuum Wave (65)
+* Psi > Mapsi > Psio > Mapsio > Psiodyne > Mapsiodyne > Psycho Force (55) > Psycho Blast (65)
+* Frei > Mafrei > Freila > Mafreila > Freidyne > Mafreidyne > Atomic Flare (55) > Cosmic Flare (65)
+* Hama > Mahama > Mahamaon > Mahamaon > Divine Judgement (65)
+* Kouha > Makouha > Kouga > Makouga > Kougaon > Makougaon > Divine Judgement (65)
+* Mudo > Mamudo > Mudoon > Mamudoon > Demonic Decree (65)
+* Eiha > Maeiha > Eiga > Maeiga > Eigaon > Maeigaon > Demonic Decree (65)
+* Megido > Megidola (35) > Megidolaon (55)
+* Foul Breath > Stagnant Air
+* Dia > Media > Diarama > Mediarama > Diarahan > Mediarahan (50) > Salvation (65)
+* Recarm > Samarecarm (35)
+* Patra > Me Patra > Amrita Drop > Amrita Shower
+* Energy Drop > Energy Shower > Amrita Drop > Amrita Shower
+* Baisudi > Mabaisudi > Amrita Drop > Amrita Shower
+* Tarukaja > Matarukaja > Heat Riser (65)
+* Rakukaja > Marakukaja > Heat Riser (65)
+* Sukukaja > Masukukaja > Heat Riser (65)
+* Tarunda > Matarunda > Debilitate (65)
+* Rakunda > Marakunda > Debilitate (65)
+* Sukunda > Masukunda > Debilitate (65)
+* Rebellion > Revolution
+* Dazzler > Nocturnal Flash
+* Pulinpa > Tentarafoo
+* Evil Touch > Evil Smile
+* Makajam > Makajamaon
+* Dormina > Lullaby
+* Taunt > Wage War
+* Ominous Words > Abysmal Surge
+* Marin Karin > Brain Jack
+* Counter > Counterstrike > High Counter
+* Dodge Element > Evade Element
+* Element Boost > Element Amp
+* Resist Element > Null Element > Repel Element > Drain Element
+* Endure > Enduring Soul
+* Regenerate 1 > Regenerate 2 > Regenerate 3
+* Invigorate 1 > Invigorate 2 > Invigorate 3
+* Growth 1 > Growth 2 > Growth 3
 
 #### Gallows
 * Unlocked: After securing treasure route in Pyramid Palace
@@ -219,7 +351,31 @@
     * Normal: Sacrificed persona gives an EXP boost that scales with its level and passes on one of its skills
     * Fusion Alarm: Increases EXP boost and passes on two skills
     * Fusion Alarm Accident: +5 bonus stats but no EXP boost or bonus skills and bypasses 1-day rule
-    * Fusion Alarm Yellow Accident: +10 bonus stats but no EXP boost or bonus skills and bypasses 1-day rule
+    * Fusion Alarm Single Gold Accident: +10 bonus stats but no EXP boost or bonus skills and bypasses 1-day rule
+    * Fusion Alarm Double Gold Accident: +15 bonus stats but no EXP boost or bonus skills and bypasses 1-day rule
+
+##### Gallows Bonus Level Up
+| Condition | Normal Multiplier | Alarm Multiplier |
+| --- | --- | --- |
+| Base | 1.0 | 2.0 |
+| Same Arcana + Not Treasure Demon | 1.5 | 3.0 |
+| Different Arcana + Treasure Demon | 3.0 | 5.0 |
+| Same Arcana + Treasure Demon | 5.0 | 7.0 |
+| Sacrifice Base Lv. < Target Curr Lv. | 0.5 | 0.5 |
+
+| Confidant Rank | Multiplier |
+| --- | --- |
+| 0 | 1.0 |
+| 1 | 1.15 |
+| 2 | 1.3 |
+| 3 | 1.5 |
+| 4 | 1.7 |
+| 5 | 2.0 |
+| 6 | 2.15 |
+| 7 | 2.3 |
+| 8 | 2.5 |
+| 9 | 2.7 |
+| 10 | 3.0 |
 
 #### Network Fusion
 * Unlocked: After securing treasure route in Spaceport Palace
