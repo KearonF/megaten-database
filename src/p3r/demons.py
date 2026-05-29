@@ -38,6 +38,7 @@ def update_skills(entry, line):
     learned = {}
     counter = 1
     entry['skills'] = learned
+    entry['steps'] = [line[f"paramsUp{x}"] for x in range(1, 6)]
 
     for i in range(1, 17):
         s_id = line[f"skillId{i}"]

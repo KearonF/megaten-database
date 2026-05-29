@@ -81,9 +81,9 @@ def load_id_file(fname):
 
 with open('../../../megaten-fusion-tool/src/app/smt5/data/demon-data.json') as jsonfile:
     VAN_DEMONS = json.load(jsonfile)
-with open('../../../megaten-fusion-tool/src/app/smt5v/data/demon-data.json') as jsonfile:
+with open('../../../megaten-fusion-tool/src/app/smt5/data/ven-demon-data.json') as jsonfile:
     OLD_DEMONS = json.load(jsonfile)
-with open('../../../megaten-fusion-tool/src/app/smt5v/data/innate-skills.json') as jsonfile:
+with open('../../../megaten-fusion-tool/src/app/smt5/data/innate-skills.json') as jsonfile:
     OLD_INNATES = json.load(jsonfile)
 
 RACE_IDS = load_id_file('Common/DevilRace.tsv')
@@ -102,7 +102,7 @@ with open('../../../megaten-fusion-tool/src/app/smt5/data/alignments.json') as j
 
 def save_ordered_demons(demons, fname):
     for entry in demons.values():
-        for stat_set in ['affinities', 'stats']:
+        for stat_set in ['affinities', 'stats', 'steps']:
             if stat_set in entry:
                 entry[stat_set] = '[' + ', '.join(str(x) for x in entry[stat_set]) + ']'
         if 'skills' in entry:
@@ -172,6 +172,7 @@ for d_id, line_start in enumerate(range(START_OFFSET, END_OFFSET, LINE_LEN)):
         'race': race,
         'lvl': lvl,
         'stats': stats_base,
+        'steps': stats_growth,
         'resists': resists,
         'skills': skills,
         'affinities': affinities

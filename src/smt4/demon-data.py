@@ -64,7 +64,7 @@ def printif_notequal(dname, field, lhs, rhs):
 
 def save_ordered_demons(demons, fname):
     for entry in demons.values():
-        for stat_set in ['resmods', 'ailmods', 'affinities', 'stats']:
+        for stat_set in ['resmods', 'ailmods', 'affinities', 'stats', 'steps']:
             if stat_set in entry:
                 entry[stat_set] = '[' + ', '.join(str(x) for x in entry[stat_set]) + ']'
         if 'skills' in entry:
@@ -105,6 +105,7 @@ def check_demon_data(fname, start_offset, end_offset, line_len):
         dlvl = struct.unpack('<1B', line[0x03:0x04])[0]
         align1, align2 = struct.unpack('<2B', line[0x04:0x06])
         stats = struct.unpack('<2H2B5H', line[0x14:0x24])
+        growths = struct.unpack('<5B', line[0x24:0x29])
         innate = struct.unpack('<8H', line[0x3C:0x4C])
         learned = struct.unpack('<16H', line[0x4C:0x6C])
         full_resists = struct.unpack('<8H', line[0x6C:0x7C])
@@ -123,6 +124,7 @@ def check_demon_data(fname, start_offset, end_offset, line_len):
         printif_notequal(dname, 'stats', demon['stats'], new_stats)
 
         demon['stats'] = list(stats)
+        demon['steps'] = list(growths)
         resists = ''.join(RESIST_LVLS[x >> 10] for x in full_resists)
         ailments = ''.join(RESIST_LVLS[full_ailments[x] >> 10] for x in AILMENT_ORDER)
         res_mods = [x & 0x3FF for x in full_resists]

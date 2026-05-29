@@ -956,7 +956,7 @@
     1. Any
     1. Choice 1. Everyone deals with that. +7 ♪♪
     1. Choice 2. We'll work at it together. +7 ♪♪
-    1. Choice 10. Phone 1. I'm glad to hear that. +7 ♪♪
+    1. Phone 1. I'm glad to hear that. +7 ♪♪
 ##### Evening
 * Crossword Question: Narcotics (Knowledge +2 ♪)
 * Fortune Rank 1
@@ -2515,7 +2515,7 @@
 ##### Evening
 * Devil Hangout Ginza (Sushi Mug Decoration unlocked)
     1. Devil Rank 8 required
-    1. Choice 1. Get pumped! +22 ♪♪♪
+    1. Choice 1. Let's keep our spirits up. +22 ♪♪♪
 ---
 #### 11/30 Wed
 ##### Daytime
@@ -2554,8 +2554,6 @@
 ---
 #### 12/03 Sat
 ##### Daytime
-* Chihaya > Money Reading (¥5000)
-* Chihaya > Celestial Reading (¥20000)
 * Cruiser Palace > Reach treasure
 * Justice Rank 9 - Auto
 * Justice Rank 10 - Auto
@@ -2564,6 +2562,8 @@
 * Temperance Hangout Ueno Romantic
     1. Temperance Rank 10 required
     1. Choice 1. I'm looking forward to this. +33 ♪♪♪
+* Justice Rank 10.5 - Auto
+    1. I want to keep our promise. +0
 ---
 #### 12/04 Sun
 ##### Daytime
@@ -2572,9 +2572,7 @@
 * Call Kawakami > Massage (¥0)
 * Hanged Hangout Inokashira (Swan Boat Decoration unlocked)
     1. Hanged Rank 3 required
-    1. Choice 3. Planning for a picnic? +22 ♪♪♪
-* Justice Rank 10.5 - Auto
-    1. I want to keep our promise. +0
+    1. Choice 3. You gonna have a picnic here? +22 ♪♪♪
 ---
 #### 12/05 Mon
 ##### Daytime
@@ -2624,7 +2622,7 @@
 ##### Evening
 * Temperance Hangout Odaiba Romantic (Night Pennant Decoration unlocked)
     1. Temperance Rank 10 required
-    1. Choice 1. I love you even more. +33 ♪♪♪
+    1. Choice 1. Not as much as I love you. +33 ♪♪♪
 ---
 #### 12/10 Sat
 ##### Daytime
@@ -2649,7 +2647,7 @@
 #### 12/12 Mon
 ##### Daytime
 * Emperor Hangout Ueno (Nude Statue Decoration unlocked)
-    1. Choice 1. Despite all the noise? +22 ♪♪♪
+    1. Choice 1. This noise is relaxing? +22 ♪♪♪
 ##### Evening
 * Crossword Question: Approval (Knowledge +2 ♪)
 * Strength Hangout Underground Mall (Heat Riser Skill Card unlocked)
@@ -2792,7 +2790,7 @@
     1. Any
     1. Any
     1. Any
-    1. Choice 10. Phone 2. You have to face it. +22 ♪♪♪
+    1. Phone 2. You have to face it. +22 ♪♪♪
 ##### Evening
 * Sakaya Trader > Special Chimaki for Strength Belt
 * Free Time
@@ -2833,7 +2831,7 @@
     1. Any
     1. Choice 1. I see. +11 ♪♪
     1. Choice 2. Sounds like progress. +22 ♪♪♪
-    1. Choice 10. Phone 3. Online. +11 ♪♪
+    1. Phone 3. Online. +11 ♪♪
 ##### Evening
 * Free Time
 ---

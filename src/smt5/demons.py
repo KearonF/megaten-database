@@ -87,6 +87,8 @@ END_OFFSET = START_OFFSET + 1201 * LINE_LEN
 OLD_DEMONS = {}
 MAGIC_COMP = (0, 1, 1, 0, 98, 0, 5, 100, 70, 100, 0)
 
+with open('../../../megaten-fusion-tool/src/app/smt5/data/demon-data.json') as jsonfile:
+    OLD_DEMONS = json.load(jsonfile)
 with open('Content/Blueprints/Gamedata/BinTable/Devil/NKMBaseTable.bin', 'rb') as binfile:
     NEW_DEMONS = binfile.read()
 with open('../../../megaten-fusion-tool/src/app/smt5/data/alignments.json') as jsonfile:
@@ -94,7 +96,7 @@ with open('../../../megaten-fusion-tool/src/app/smt5/data/alignments.json') as j
 
 def save_ordered_demons(demons, fname):
     for entry in demons.values():
-        for stat_set in ['affinities', 'stats']:
+        for stat_set in ['affinities', 'stats', 'steps']:
             if stat_set in entry:
                 entry[stat_set] = '[' + ', '.join(str(x) for x in entry[stat_set]) + ']'
         if 'skills' in entry:
@@ -160,7 +162,9 @@ for d_id, line_start in enumerate(range(START_OFFSET, END_OFFSET, LINE_LEN)):
     entry = {
         'race': race,
         'lvl': lvl,
+        'price': OLD_DEMONS[dname]['price'],
         'stats': stats_base,
+        'steps': stats_growth,
         'resists': resists,
         'skills': skills,
         'affinities': affinities

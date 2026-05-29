@@ -1,7 +1,7 @@
 {
-  "demonData": ["p5r/data/demon-data.json"],
-  "enemyData": ["p5r/data/enemy-data.json"],
-  "skillData": ["p5/data/skill-data.json", "p5r/data/skill-data.json"],
+  "demonData": ["p5/data/roy-demon-data.json"],
+  "enemyData": ["p5/data/roy-enemy-data.json"],
+  "skillData": ["p5/data/skill-data.json", "p5/data/roy-skill-data.json"],
   "gameAilments": ["Dizzy", "Panic", "Fear", "Forget", "Hunger", "Sleep", "Rage", "Despair", "Brainwash"],
   "toolAilments": ["Dizzy", "Panic", "Fear", "Forget", "Hunger", "Sleep", "Rage", "Despair", "Brainwash"],
   "gameResists": ["phy", "gun", "fir", "ice", "ele", "win", "psy", "nuk", "ble", "cur", "alm"],
@@ -19,6 +19,7 @@
   "demonStats": { "begin": "0x00", "count": "0x1D0", "length": "0xE" },
   "demonSkills": { "begin": "0x00", "count": "0x1D0", "length": "0x46" },
   "partySkills": { "begin": "0x00", "count": "0x31", "length": "0x26E" },
+  "skillElems": { "begin": "0x00", "count": "0x3E8", "length": "0x03" },
   "skillPowers": { "begin": "0x00", "count": "0x320", "length": "0x30" },
   "includedMax": 2,
   "demonIds": "p5r-demon-ids.tsv",

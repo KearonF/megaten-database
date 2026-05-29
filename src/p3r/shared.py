@@ -3,7 +3,7 @@ import json
 
 def save_ordered_demons(demons, fname):
     for entry in demons.values():
-        for stat_set in ['resmods', 'ailmods', 'stats']:
+        for stat_set in ['resmods', 'ailmods', 'stats', 'steps']:
             if stat_set in entry:
                 entry[stat_set] = '[' + ', '.join(str(x) for x in entry[stat_set]) + ']'
         for stat_set in ['skills', 'drops']:

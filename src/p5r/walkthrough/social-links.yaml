@@ -433,7 +433,7 @@ Emperor:
     Unlocks:
     - Nude Statue Decoration
     Choices:
-    - 1. Despite all the noise? +15
+    - 1. This noise is relaxing? +15
   Hangout Ikebukuro:
     Unlocks:
     - Star Stickers Decoration
@@ -1388,7 +1388,7 @@ Hanged:
     Unlocks:
     - Swan Boat Decoration
     Choices:
-    - 3. Planning for a picnic? +15
+    - 3. You gonna have a picnic here? +15
 Death:
   Rank 1:
     Unlocks:
@@ -1633,7 +1633,7 @@ Temperance:
     Unlocks:
     - Night Pennant Decoration
     Choices:
-    - 1. I love you even more. +15
+    - 1. Not as much as I love you. +15
   Hangout Normal:
     Unlocks:
     - ¥5000
@@ -1741,7 +1741,7 @@ Devil:
     Unlocks:
     - Sushi Mug Decoration
     Choices:
-    - 1. Get pumped! +15
+    - 1. Let's keep our spirits up. +15
 Tower:
   Rank 1:
     Requires:
@@ -2135,7 +2135,7 @@ Faith:
     - Any
     - 1. Everyone deals with that. +5
     - 2. We'll work at it together. +5
-    - 10. Phone 1. I'm glad to hear that. +5
+    - Phone 1. I'm glad to hear that. +5
   Rank 5:
     Next Rank: 0
     Choices:
@@ -2164,7 +2164,7 @@ Faith:
     - Any
     - Any
     - Any
-    - 10. Phone 2. You have to face it. +10
+    - Phone 2. You have to face it. +10
   Rank 7:
     Next Rank: 55
     Unlocks:
@@ -2189,7 +2189,7 @@ Faith:
     - Any
     - 1. I see. +5
     - 2. Sounds like progress. +10
-    - 10. Phone 3. Online. +5
+    - Phone 3. Online. +5
   Rank 9 Platonic:
     Next Rank: 80
     Choices:

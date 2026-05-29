@@ -81,6 +81,7 @@ for d_id, line_start in enumerate(range(stat_config['begin'], stat_config['end']
     SEEN_DEMONS[dname] = True
 
     growths = struct.unpack('<5B', line[0x00:0x05])
+    demon['steps'] = growths
 
     if GAME == 'p5r':
         trait, = struct.unpack('<1B', line[0x08:0x09])

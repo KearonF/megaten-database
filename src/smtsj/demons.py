@@ -82,6 +82,8 @@ for d_id, line_start in enumerate(range(START_OFFSET, END_OFFSET, LINE_LEN)):
     full_resists = struct.unpack('<8H', line[0x3A:0x4A])
     full_ailments = struct.unpack('<11H', line[0x4A:0x60])
 
+    entry['steps'] = growths
+
     race = RACE_IDS[race]
     stats = list(stats[:3] + stats[6:] + stats[3:6])
     skills = [SKILL_IDS[x] for x in skills if x != 0]

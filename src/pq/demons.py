@@ -132,6 +132,7 @@ for d_id, line_start in enumerate(range(START_OFFSET, END_OFFSET, LINE_LEN)):
 
     printif_notequal(dname, 'skills', str(skills), str(entry['skills']))
     entry['skills'] = skills
+    entry['steps'] = growths[:2]
 
 for dname, seen in SEEN.items():
     if not seen:
